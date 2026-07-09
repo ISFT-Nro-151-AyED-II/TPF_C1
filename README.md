@@ -1,2 +1,11 @@
-# TPF_C1
-Marco práctico del TP Final del 1er Cuatrimestre correspondiente a la Cátedra de Algoritmos y Estructuras de Datos II de la Carrera de Analista de Sistemas del ISFT N°151.
+<img src="assets/saca_muela_logo.png" alt="Ilustración Saca Muelas" align="right" width="230">
+
+# 💻 Trabajo Final Integrador Primer Cuatrimestre - Saca Muelas 🦷
+
+**Instituto Superior de Formación Técnica Nº 151**   
+**Carrera:** Tecnicatura Superior en Análisis de Sistemas  
+**Materia:** Algoritmos y Estructuras de Datos II  
+**Tema:** Fundamentos generales de Python, SQLite y Tkinter   
+**Alumno:** David Hernán Bravo  
+
+---
