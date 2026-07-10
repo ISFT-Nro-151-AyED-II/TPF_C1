@@ -1,0 +1,25 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="gU6rf5i2q3NfwPiqQDce">
+    <mxGraphModel dx="1277" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GnrVvOEH4PuYytPEQfGG-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;formulario_odontologico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- root: tk.Tk&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notebook: ttk.Notebook&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- txt_dni: tk.StringVar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- txt_nombre: tk.StringVar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- txt_apellido: tk.StringVar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- txt_telefono: tk.StringVar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tabla_pacientes: ttk.Treeview&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __init__(root: tk.Tk)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- inicializar_interfaz(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- crear_pestanias(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ejecutar_alta(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ejecutar_consulta_general(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ejecutar_busqueda(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ejecutar_modificacion(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ejecutar_baja(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- validar_inputs(dni: str, nombre: str. apellido: str, telefono: str): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mostrar_alerta(titulo: str, mensaje: str, es_error: boolean): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- limpiar_campos(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="320" width="400" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GnrVvOEH4PuYytPEQfGG-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;consultorio&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ruta_db: str&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __init__()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conectar(): sqlite3.Connection&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ registrar_paciente(dni: str, nombre: str, apellido: str, telefono: str): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ listar_pacientes(): list&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buscar_paciente_por_dni(dni: str): tuple&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ modificar_paciente(dni: str, nombre: str, apellido: str, telefono: str): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ eliminar_paciente(dni: str): boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="440" x="100" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GnrVvOEH4PuYytPEQfGG-5" edge="1" parent="1" source="GnrVvOEH4PuYytPEQfGG-1" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GnrVvOEH4PuYytPEQfGG-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnrVvOEH4PuYytPEQfGG-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="asocia / consume métodos CRUD" vertex="1">
+          <mxGeometry height="30" width="190" x="319" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
