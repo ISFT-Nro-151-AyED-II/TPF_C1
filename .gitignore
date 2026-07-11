@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# REGLAS ESPECÍFICAS DEL PROYECTO SACA MUELA
+# ==========================================
+
+# 1. Base de datos de prueba
+database/*.db
+database/*.sqlite3
+
+# 2. Archivos del entorno de desarrollo
+.vscode/
+
+# 3. Binarios y ejecutables en raíz
+*.exe
+
+# 4. Basura del Sistema Operativo
+Thumbs.db
+desktop.ini
+.DS_Store
