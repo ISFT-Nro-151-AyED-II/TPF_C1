@@ -22,7 +22,7 @@ class Consultorio:
         self._inicializar_db()
 
     def _conectar(self) -> sqlite3.Connection:
-        # Método privado que encapsula el driver. 
+        # Método protegido que encapsula el driver. 
         # Si a futuro se migra a PostgreSQL o MySQL, solo se toca este método.
         return sqlite3.connect(self.ruta_db)
 
